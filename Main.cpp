@@ -2,7 +2,16 @@
 #include <string>
 using namespace std;
 
+void Battleship();
+
 int main() {
+  
+    Battleship();
+
+    return 0;
+}
+
+void Battleship() {
     string response;
     cout << "Would you like to play battleship? Y/N \n";
     cin >> response;
@@ -61,6 +70,4 @@ int main() {
     {
         cout << "Invalid response";
     }
-     
-    return 0;
 }
